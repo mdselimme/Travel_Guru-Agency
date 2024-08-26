@@ -1,11 +1,15 @@
-
+/* Google font links */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Default Css  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
 }
+
 
 .container{
     max-width: 1320px;
@@ -25,3 +29,71 @@
 .m-auto{
     margin: 0 auto;
 }
+
+.w-full{
+    width: 100%;
+}
+
+/*Defalut Css End Here  */
+
+/* Header Section Css Start Here  */
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+
+}
+
+.header-logo h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header-logo h1 a img{
+    margin-right: 10px;
+}
+
+.header-logo > h1 > a{
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.header-logo > h1 > a > span{
+    color: #FF5400;
+    margin-left: 10px;
+}
+
+.header-menu > ul {
+    list-style: none;
+}
+
+.header-menu > ul > li {
+    display: inline-block;
+}
+
+.header-menu > ul > li > a{
+    color:#717175;
+    font-weight: 500;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+.header-menu > ul > li > a:last-child{
+    padding-right: 0;
+}
+
+.header-menu > ul > li > a:hover{
+    color: #FF5400;
+    
+}
+
+/* Header Section Css End Here  */
+
+/* Banner Section Css Start Here  */
+
+
+/* Banner Section Css End Here  */
+
+/* Responsive Css Start Here  */
