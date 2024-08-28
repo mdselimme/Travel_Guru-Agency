@@ -39,6 +39,10 @@
     align-items: center;
 }
 
+.cmn-padding{
+    padding: 100px 0;
+}
+
 /*Defalut Css End Here  */
 
 /* Header Section Css Start Here  */
@@ -102,7 +106,7 @@
     background: url("../images/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55vh;
+    height: 60vh;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -138,6 +142,7 @@
     font-weight: 400;
     color: #5A5A5D;
     margin-bottom: 25px;
+    line-height: 1.6;
 }
 
 .travel-text-box p{
@@ -170,9 +175,45 @@
     border-radius: 8px;
 }
 
-
-
-
 /* Explore travel Banner Section Css End Here  */
+
+/* Populer Tour section css start here  */
+
+.cmn-header{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 30px;
+}
+
+
+.populer-tour-box{
+   display: grid;
+   gap: 15px;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.populer-tour-text{
+    padding: 0 25px;
+    text-align: justify;
+}
+
+.populer-tour-text ul{
+    margin: 25px 0;
+    margin-left: 40px;
+}
+
+.cmn-btn{
+    background-color: #FF5400;
+    color: #fff;
+    border: 0;
+    padding: 18px 50px;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+/* Populer Tour section css end here  */
 
 /* Responsive Css Start Here  */
