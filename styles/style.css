@@ -298,6 +298,55 @@
     margin-bottom: 50px;
 }
 
+.choose-single-1{
+    grid-area: chooseone;
+    background: rgba(251,181,99,0.1);
+    border: 1px solid rgba(251,181,99,1);
+}
+.choose-single-2{
+    grid-area: choosetwo;
+    background-color: rgba(41,206,246,0.1);
+    border: 1px solid rgba(41,206,246,1);
+}
+
+.choose-single-3{
+    grid-area: choosethree;
+    background: rgba(233,68,68,0.1);
+    border: 1px solid rgba(233,68,68,1);
+}
+
+.choose-details-box-main{
+    display: grid;
+    grid-template-areas: "chooseone chooseone choosetwo choosetwo"
+                         "choosethree choosethree choosethree choosethree";
+    gap: 25px;
+    margin-bottom: 80px;
+} 
+
+.choose-details-box-single{
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.choose-details-box-single img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+
+
+.new-cmn-header{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.choose-details-box-single p{
+    margin-bottom: 0;
+}
+
+
 /* Choose us section css end here  */
 
 /* Responsive Css Start Here  */
