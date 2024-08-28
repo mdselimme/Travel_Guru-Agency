@@ -320,7 +320,6 @@
     grid-template-areas: "chooseone chooseone choosetwo choosetwo"
                          "choosethree choosethree choosethree choosethree";
     gap: 25px;
-    margin-bottom: 80px;
 } 
 
 .choose-details-box-single{
@@ -348,5 +347,63 @@
 
 
 /* Choose us section css end here  */
+
+
+/* Deals Section Css start here  */
+
+.choose-image-box{
+    background: url("../images/deal-1.png");
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.deal-box-2{
+    background: url("../images/deal-2.png");
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choose-image-single{
+    background: rgba(255,255,255,0.8);
+    width: 580px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    right: 5%;
+    border: 1px solid rgba(41,206,246,1);
+   
+}
+
+.choose-single-box-2{
+    left: 5%;
+}
+
+.choose-image-single ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.choose-image-single ul li{
+    display: inline-block;
+    margin-right: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.choose-image-single ul li i{
+    color: #FF5400;
+    margin-right: 10px;
+}
+
+/* Deals Section Css end here  */
 
 /* Responsive Css Start Here  */
