@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none; 
     font-family: "Mulish", sans-serif;
 }
 
@@ -213,6 +213,17 @@
     margin-top: 25px;
     border-radius: 8px;
 }
+
+/* Populer Tour section css end here  */
+
+
+/* Populer Tour section css start here  */
+
+.choose-destionation-box {
+    padding-top: 0px;
+}
+
+
 
 /* Populer Tour section css end here  */
 
