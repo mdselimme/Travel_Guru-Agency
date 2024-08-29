@@ -442,8 +442,18 @@
     margin-bottom: 15px;
 }
 
+/* Watch Video Section Css End here  */
+
+/* NewsLetter Section Css start here  */
+
 .newsletter-input{
     padding: 50px;
+}
+
+.newsletter-input h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .hr-border{
@@ -453,7 +463,34 @@
    margin-bottom: 20px;
 }
 
-/* Watch Video Section Css End here  */
+.newsletter-input input {
+    width: 100%;
+    padding:20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    background: rgba(19,19,24,0.1);
+}
+
+.news-btn{
+    background-color: #FF5400;
+    color: #fff;
+    border: 0;
+    padding: 15px 35px;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.news-btn:hover, .cmn-btn:hover{
+    cursor: pointer;
+}
+
+
+/* NewsLetter Section Css end here  */
 
 
 /* Responsive Css Start Here  */
