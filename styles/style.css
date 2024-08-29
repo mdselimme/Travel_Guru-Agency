@@ -444,6 +444,34 @@
 
 /* Watch Video Section Css End here  */
 
+/* Review Section Css Start here  */
+
+.review-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.review-single{
+    background: rgba(233, 68, 68, 0.1);
+    padding: 30px;
+    width: 23%;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid rgba(233, 68, 68, 0.8);
+}
+
+.review-single ul{
+    list-style: none;
+}
+
+.review-single ul li{
+    display: inline-block;
+}
+
+
+/* Review Section Css End here  */
+
 /* NewsLetter Section Css start here  */
 
 .newsletter-input{
@@ -491,6 +519,39 @@
 
 
 /* NewsLetter Section Css end here  */
+
+/* Footer box css start here  */
+
+.footer-box-main{
+    background-color: rgba(19, 19, 24, 0.1);
+    margin-top: 80px;
+}
+
+
+
+.footer-logo > h1 > a{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.social-link{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-link li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social-link li a{
+    color: #131318;
+    font-size: 24px;
+}
+
+/* Footer box css end here  */
 
 
 /* Responsive Css Start Here  */
