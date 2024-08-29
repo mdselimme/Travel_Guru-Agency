@@ -442,6 +442,17 @@
     margin-bottom: 15px;
 }
 
+.newsletter-input{
+    padding: 50px;
+}
+
+.hr-border{
+    height: 1px;
+   display: block;
+   background: rgba(19,19,24,0.2);
+   margin-bottom: 20px;
+}
+
 /* Watch Video Section Css End here  */
 
 
