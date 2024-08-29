@@ -461,12 +461,38 @@
     border: 1px solid rgba(233, 68, 68, 0.8);
 }
 
+.review-single h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.review-para{
+    font-size: 14px;
+    font-weight: 600;
+    color: #5A5A5D;
+    margin-bottom: 10px;
+}
+
 .review-single ul{
     list-style: none;
+    margin: 5px 0;
 }
 
 .review-single ul li{
     display: inline-block;
+}
+
+.review-star-give{
+    color: #FF5400;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.review-star-none{
+    color: #000000;
+    font-size: 16px;
+    margin: 0 5px;
 }
 
 
