@@ -495,7 +495,6 @@
     margin: 0 5px;
 }
 
-
 /* Review Section Css End here  */
 
 /* NewsLetter Section Css start here  */
@@ -581,3 +580,17 @@
 
 
 /* Responsive Css Start Here  */
+
+/* For Mobile View Start Here  */
+
+@media screen and (max-width:576px){
+    .travel-text-box h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .explore-travel-box {
+        padding: 40px;
+    }
+}
+
+/* For Mobile View End Here  */
