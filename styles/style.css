@@ -584,12 +584,93 @@
 /* For Mobile View Start Here  */
 
 @media screen and (max-width:576px){
+    .container {
+        max-width: 100%;
+        padding: 20px 0;
+    }
     .travel-text-box h1 {
         font-size: 30px;
         margin-top: 50px;
     }
+    br{
+        display: none;
+    }
+    .cmn-para {
+        font-size: 14px;
+        text-align: justify;
+        text-align: center;
+        padding: 20px;
+    }
+    .cmn-btn {
+        padding: 14px 40px;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    
+    .populer-tour-box {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 20px;
+    }
+    .populer-tour-text .cmn-para{
+        text-align: left;
+    }
+    .populer-tour-image{
+        margin-top: 30px;
+    }
+    .choose-destination-image-box {
+        margin-top: 50px;
+        display: grid;
+        grid-template-areas: "maldives"
+                             "indonesia"
+                             "srilanka"
+                             "north-america"
+                             "kashmir"
+                             "bangladesh"
+                             "bangdarban"; 
+       margin: 0 20px;
+    }
     .explore-travel-box {
         padding: 40px;
+    }
+    .choose-details-box-main {
+        grid-template-areas: "chooseone"
+                             "choosetwo"
+                             "choosethree";
+        margin: 20px;
+    }
+    .cmn-header {
+        font-size: 32px;
+    }
+    .choose-main{
+        padding: 20px;
+    }
+    .choose-image-box {
+        height: 680px;
+    }
+    .choose-image-single {
+        width: 495px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .choose-image-single .cmn-para{
+        margin-left: 0;
+        text-align: left;
+    }
+    .review-main{
+       flex-direction: column;
+       justify-content: center;
+       margin: 0 20px;
+    }
+    
+    .review-single{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .cmn-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 0 20px;
     }
 }
 
